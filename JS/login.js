@@ -3,7 +3,9 @@ const button = document.querySelector('.login__button');
 
 const validateInput = ({ target }) => {
     if (target.value.length> 1) {
-        button.removeAttribute('disabled');
+        button.removeAttribute('disabled'); 
+     }else {
+        button.setAttribute('disabled', '');
     }
 }
 input.addEventListener('input', validateInput)
