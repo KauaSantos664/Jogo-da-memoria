@@ -50,3 +50,10 @@
     padding: 15px;
     width: 100%;
 }
+
+.login__button:disabled {
+
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
