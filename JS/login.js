@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
 
   localStorage.setItem('player', input.value);
 
-  window.location = 'pages/game.html'
+  window.location = 'pages/game.html';
 }
 
 input.addEventListener('input', validateInput)  
