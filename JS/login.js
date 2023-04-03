@@ -10,8 +10,10 @@ const validateInput = ({ target }) => {
     }
 }
 
-const handleSubmit = () => {
+const handleSubmit = (event) => {
     Event.preventDefault();
+
+  localStorage.setItem('player', input.value);
 }
 
 input.addEventListener('input', validateInput)  
