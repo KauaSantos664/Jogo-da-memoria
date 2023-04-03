@@ -1,5 +1,6 @@
 const input = document.querySelector('.login__input');
 const button = document.querySelector('.login__button');
+const form = document.querySelector('.login-form');
 
 const validateInput = ({ target }) => {
     if (target.value.length> 1) {
@@ -8,4 +9,10 @@ const validateInput = ({ target }) => {
         button.setAttribute('disabled', '');
     }
 }
-input.addEventListener('input', validateInput)
+
+const handleSubmit = () => {
+    Event.preventDefault();
+}
+
+input.addEventListener('input', validateInput)  
+form.addEventListener('submit', handleSubmit);
