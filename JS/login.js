@@ -9,4 +9,5 @@ const validateInput = ({ target }) => {
         button.setAttribute('disabled', '');
     }
 }
-
+ 
+input.addEventListener('input', validateInput);
