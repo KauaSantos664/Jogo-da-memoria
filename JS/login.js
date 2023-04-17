@@ -9,5 +9,12 @@ const validateInput = ({ target }) => {
         button.setAttribute('disabled', '');
     }
 }
+
+const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('logando...');
+
+}
  
 input.addEventListener('input', validateInput);
+form.addEventListener('submit', handleSubmit);
