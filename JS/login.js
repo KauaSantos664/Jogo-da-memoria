@@ -12,7 +12,7 @@ const validateInput = ({ target }) => {
 
 const handleSubmit = (event) => {
     event.preventDefault();
-    console.log('logando...');
+    
 
 }
  
