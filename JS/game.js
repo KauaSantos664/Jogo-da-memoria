@@ -13,4 +13,5 @@ const createCard = () => {
     card.appendChild(front);
     card.appendChild(back);
 
+    grid.appendChild(card);
 }
