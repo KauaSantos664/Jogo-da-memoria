@@ -22,16 +22,20 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgb(rgb(36, 16, 167));
+    border-radius: 5px;
 }
 
 .front {
-    background-color: red;
+    background-image: url('../img/Dante.jpg');
+ 
 }
 
 .back {
     background-image: url('../img/Devil\ May\ Cry\ logo.jpg');
-    background-size: cover;
-    background-position: center;
+    backface-visibility: hidden;
 }
 
 .card:hover {
