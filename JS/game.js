@@ -6,4 +6,9 @@ const createCard = () => {
     card.className = 'card';
     front.className = 'face front';
     back.className = 'face back';
+
+
+    card.appendChild(front);
+    card.appendChild(back);
+
 }
