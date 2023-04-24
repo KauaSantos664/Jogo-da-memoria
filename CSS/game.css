@@ -11,14 +11,14 @@
 .card {
     aspect-ratio: 3/4;
     width: 100%;
+    background-color: #333;
     border-radius: 5px;
-    margin: 100px auto;
     position: relative;
 }
 
 .face {
     width: 100%;
-    height: 100;
+    height: 100%;
     position: absolute;
 }
 
@@ -26,3 +26,8 @@
     background-color: red;
 }
 
+.back {
+    background-image: url('../img/Devil\ May\ Cry\ logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
