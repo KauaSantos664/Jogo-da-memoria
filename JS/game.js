@@ -1,4 +1,4 @@
-const grid = document.querySelector('grid');
+const grid = document.querySelector('.grid');
 
 const createCard = () => {
     const card = document.createElement('div');
