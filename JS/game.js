@@ -15,3 +15,4 @@ const createCard = () => {
 
     grid.appendChild(card);
 }
+
